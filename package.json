@@ -1,0 +1,21 @@
+{
+  "name": "comparegoogleresults",
+  "version": "1.0.0",
+  "description": "app to compare googleSearch results qty",
+  "main": "index.js",
+  "scripts": {
+    "start": "TELEGRAM_BOT_TOKEN=638653445:AAHPOeLycSTOOOqpMri1KMpDIcoGBz8Iv-k node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "dependencies": {
+    "botgram": "^2.2.0",
+    "https": "^1.0.0"
+  }
+}
