@@ -23,7 +23,7 @@ const findNum = (body) => {
   const endSP = body.indexOf('</div>', startSP);
   const searchPart = body.slice(startSP, endSP);
   const startNumPoint = searchPart.lastIndexOf(':') + 1;
-  const resultsQty = searchPart.slice(startNumPoint).replace(/[^\w]/g, '');
+  const resultsQty = searchPart.slice(startNumPoint).replace(/[^\d]/g, '');
   return resultsQty;
 };
 
