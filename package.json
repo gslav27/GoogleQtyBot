@@ -4,7 +4,7 @@
   "description": "app to compare googleSearch results qty",
   "main": "index.js",
   "scripts": {
-    "start": "TELEGRAM_BOT_TOKEN=638653445:AAHPOeLycSTOOOqpMri1KMpDIcoGBz8Iv-k node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
