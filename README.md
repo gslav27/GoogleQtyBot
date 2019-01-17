@@ -1,2 +1,2 @@
 # GoogleQtyBot
-src files for @GoogleQtyBot (Telegram)
+src files for @GoogleQtyBot (Telegram) *(inactive)*
